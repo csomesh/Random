@@ -41,16 +41,24 @@
     <TextView
         android:layout_width="wrap_content"
         android:paddingTop="15dp"
+        android:layout_marginTop="30dp"
         android:paddingBottom="15dp"
         android:layout_gravity="center"
         android:textColor="#C62828"
         android:layout_height="wrap_content"
+        android:textSize="50sp"
         android:id="@+id/ran_int_textview"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Get ЯandoM"
         android:id="@+id/submit"
-        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:paddingLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:layout_gravity="center_horizontal"
         android:textAllCaps="false"/>
 </LinearLayout>
